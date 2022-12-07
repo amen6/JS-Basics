@@ -5,6 +5,5 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <script src="Step_1.js"></script>
     </body>
 </html>
