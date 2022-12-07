@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Step 1</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-    </body>
-</html>
+let name = "Amen";
+let surname = "Nafeh";
+let city = "Tripoli";
+
+alert("Name: " + name + "\nSurname: " + surname + "\nCity: " + city)
