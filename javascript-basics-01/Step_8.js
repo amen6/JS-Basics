@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Step 1</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-    </body>
-</html>
+const validateButton = document.querySelector("#validate");
+const ageInput = document.querySelector("#age");
+
+let age = parseInt(prompt("Please enter your age"));
+
+ageInput.value = age;
+
+validateButton.addEventListener("click", (e)=>{
+    e.preventDefault();
+    (age >= 18)? alert("You are over 18") : alert("you are under 18");
+    ageInput.value = "";
+})
+
